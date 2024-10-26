@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Python and Its Applications</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <img src="./logo/Logo.png" alt="Logo" class="logo" />
+        <img src="./logo/header.png" alt="Header" class="header-image" />
+      </header>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Arithmetic operations in programming
+        </h1>
+        <p class="text-center">Click on each topic to learn more.</p>
+        
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#operatorsIntroModal">
+                    Operators and Its Types
+                </button>
+            </div>
+            <div class="col-md-4 mb-3">
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#arithmeticOperatorsModal">
+                    Arithmetic Operators
+                </button>
+            </div>
+            <div class="col-md-4 mb-3">
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#orderOfOperationsModal">
+                    Order of Operations 
+                </button>
+            </div>
+            <!-- <div class="col-md-4 mb-3">
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#installingpython">
+                   Downlaod And Install Python
+                </button>
+            </div>
+            <div class="col-md-4 mb-3">
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#installingvscode">
+                   Downlaod And Install Visual Studio COde
+                </button>
+            </div> -->
+        </div>
+        
+    </div>
+    
+
+<!-- Modals -->
+
+<div class="modal fade" id="operatorsIntroModal" tabindex="-1" aria-labelledby="operatorsIntroLabel" aria-hidden="true">
+    <div class="modal-dialog custom-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="operatorsIntroLabel">Operators and Its Types</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="content-container">
+                    <div class="text-content">
+                        <p>Do you know what are Operators?</p>
+                        <p><strong>Ans.:</strong> Operators refer to special symbols that perform operations on values and variables. They are essential components in programming as they enable manipulation of data in various ways.</p>
+                        <p>Python divides operators into the following groups:</p>
+                        <ul style="font-size: 1.2rem;">
+                            <li><strong>Arithmetic Operators:</strong></li>
+                            <li><strong>Assignment Operators:</strong> </li>
+                            <li><strong>Comparison Operators:</strong></li>
+                            <li><strong>Logical Operators:</strong> </li>
+                            <li><strong>Identity Operators:</strong> </li>
+                            <li><strong>Membership Operators:</strong></li>
+                            <li><strong>Bitwise Operators:</strong></li>
+                        </ul>
+                    </div>
+                    <div class="image-content">
+                        <!-- <img src="./images/operators.png" alt="Operators" style="max-width: 100%; height: auto;"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="arithmeticOperatorsModal" tabindex="-1" aria-labelledby="arithmeticOperatorsLabel" aria-hidden="true">
+    <div class="modal-dialog custom-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="arithmeticOperatorsLabel">Arithmetic Operators</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="content-container">
+                    <div class="text-content">
+                        <p>Arithmetic operators are used to perform mathematical operations such as addition, subtraction, multiplication, and division. You might have used these operations in mathematics before, and now we’ll see how they work in Python.</p>
+                        <p>There are 7 arithmetic operators in Python:</p>
+                        <ul style="font-size: 1.2rem;">
+                            <li><strong>Addition (+):</strong> Adds two numbers.</li>
+                            <li><strong>Subtraction (-):</strong> Subtracts the second number from the first number.</li>
+                            <li><strong>Multiplication (*):</strong> Multiplies two numbers.</li>
+                            <li><strong>Division (/):</strong> Divides the first number by the second number.</li>
+                            <li><strong>Modulus (%):</strong> Returns the remainder of the division.</li>
+                            <li><strong>Exponentiation (**):</strong> Returns the first number to the power of the second number.</li>
+                            <li><strong>Floor Division (//):</strong> Divides the first number by the second and rounds down to the nearest whole number.</li>
+                        </ul>
+                        <p>Let’s see how each one works in Google Colab!</p>
+
+                        <div class="operator-section">
+                        <p><strong>ADDITION:</strong> Adds two numbers.</p>
+                        <img class="modal-img"src="./images/sc1.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+                        </div>
+                        <div class="operator-section">
+                        <p><strong>SUBTRACTION:</strong> Subtracts the second number from the first number.</p>
+                        <img class="modal-img"src="./images/sc2.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+                    </div>
+
+                        <div class="operator-section">
+                        <p><strong>MULTIPLICATION:</strong> Multiplies two numbers.</p>
+                        <img class="modal-img"src="./images/sc3.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+                    </div>
+
+                        <div class="operator-section">
+                        <p><strong>DIVISION:</strong> Divides the first number by the second number.</p>
+                        <img class="modal-img"src="./images/sc4.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+                    </div>
+
+                        <div class="operator-section">
+                        <p><strong>MODULUS:</strong> Returns the remainder of the division.</p>
+                        <img class="modal-img"src="./images/sc5.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+                    </div>
+
+                        <div class="operator-section">
+                        <p><strong>EXPONENTIATION:</strong> Returns the first number to the power of the second number.</p>
+                        <img class="modal-img"src="./images/sc6.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+                    </div>
+
+                        <div class="operator-section">
+                        <p><strong>FLOOR DIVISION:</strong> Divides the first number by the second and rounds down to the nearest whole number.</p>
+                        <img class="modal-img"src="./images/sc7.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+                    </div>
+
+                    </div>
+                  
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="orderOfOperationsModal" tabindex="-1" aria-labelledby="orderOfOperationsLabel" aria-hidden="true">
+    <div class="modal-dialog custom-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="orderOfOperationsLabel">Order of Operations</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="content-container">
+                    <div class="text-content">
+                        <p>Order of operations, also called the order of precedence, is a set of rules that determines the sequence in which different operations are evaluated in a mathematical expression. Just like BODMAS in mathematics, we have PEMDAS.</p>
+                        <p><strong>P:</strong> Parenthesis ()</p>
+                        <p><strong>E:</strong> Exponentiation **</p>
+                        <p><strong>M:</strong> Multiplication *</p>
+                        <p><strong>D:</strong> Division /, //, %</p>
+                        <p><strong>A:</strong> Addition +</p>
+                        <p><strong>S:</strong> Subtraction -</p>
+                        <p>Parentheses are performed first, then exponentiation, multiplication, and division in the same order of precedence. These are evaluated from left to right, meaning the one at the left will be performed first. Lastly, we have addition and subtraction, which also have the same order of precedence and are evaluated from left to right.</p>
+                        <p>From left to right means, if two operators have the same order of precedence, the one at the left will be performed first, then the next one to its right, and so on.</p>
+                        <p>Let’s understand this with an example.</p>
+                        <img class="modal-img"src="./images/sc8.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+
+                        <p>Now, that we know how these operators work, let’s put them into practice!</p>
+                        <p>Suppose you and your 4 friends are creating a robotics project. You bought the components required for it, costing 2000 rupees. You want to split the amount equally among all. How would you do that?</p>
+                        <img class="modal-img"src="./images/sc9.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+
+                        <p>Great!</p>
+                        <h2> CONVERTING STRING TO INTEGER OR FLOAT</h2>
+                        <p>Now let’s say you want to calculate the average marks of 5 subjects, but you need to take input of marks from the user. Any idea about how we can do that?</p>
+                        <img class="modal-img"src="./images/sc10.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+
+                        <p>According to us, we have written everything correctly. Why do you think we are getting an error?</p>
+                        <p>The reason for the error is that when we take input from the user and store it in a variable, by default it gets stored as a string data type. Do you remember how we can check the data type of a variable?</p>
+                        <img class="modal-img"src="./images/sc11.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+
+                        <p>The different data types used to store numbers are <strong>int</strong> and <strong>float</strong>. So, we need to convert the input into either <strong>int</strong> or <strong>float</strong>. Since marks can be decimal values too, we will convert it into <strong>float</strong>.</p>
+                        <img class="modal-img"src="./images/sc12.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+                        <img class="modal-img"src="./images/sc13.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+                        <img class="modal-img"src="./images/sc14.png" alt="sc" style="width: 100%; max-width: 500px;" > <br>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="installingpython" tabindex="-1" aria-labelledby="installingpythonLabel" aria-hidden="true">
+    <div class="modal-dialog custom-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="installingpythonLabel">Download and Install Python</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="content-container">
+                    <div class="text-content" style="font-size: 1.2rem;">
+                        <p style="color: rgb(160, 5, 5); font-size: 1.4rem;"><strong><u>For Mac Users:</u></strong></p>
+                        <ol>
+                            <li><strong>Visit <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a> and select <strong>macOS</strong>.</li>
+                            <img class="modal-img"src="./images/sc15.png" alt="sc" style="width: 100%; max-width: 600px;" > <br>
+
+                            <li>Select the <strong>latest Python Release</strong>.</li>
+                            <img class="modal-img"src="./images/sc16.png" alt="sc" style="width: 100%; max-width: 600px;" > <br>
+
+                            <li>Scroll downwards and select <strong>macOS installer</strong>.</li>
+                            <img class="modal-img"src="./images/sc17.png" alt="sc" style="width: 100%; max-width: 900px;" > <br>
+                            Once downloaded, you can install it.
+                        </ol>
+                        <br><br>
+                        <p style="color: rgb(160, 5, 5); font-size: 1.4rem;"><strong><u>For Windows Users:</u></strong></p>
+                        <ol>
+                            <li><strong>Visit <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a> and click on <strong>Download Python</strong>.</li>
+                            <img class="modal-img"src="./images/sc18.png" alt="sc" style="width: 100%; max-width: 600px;" > <br>
+
+                            <li>Run the <strong>.exe file</strong> once downloaded. Make sure you select <strong>Add Python to Path</strong>.</li>
+                            <img class="modal-img"src="./images/sc19.png" alt="sc" style="width: 100%; max-width: 600px;" > <br>
+
+                            <li>Click on <strong>Install</strong>.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="installingvscode" tabindex="-1" aria-labelledby="installingvscodeLabel" aria-hidden="true">
+    <div class="modal-dialog custom-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="installingvscodeLabel">Download and Install Visual Studio Code</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="content-container">
+                    <div class="text-content" style="font-size: 1.2rem;">
+                        <p><strong>To download and install Visual Studio Code:</strong></p>
+                        <ol>
+                            <li><strong>Visit <a href="https://code.visualstudio.com/download" target="_blank">https://code.visualstudio.com/download</a>.</strong></li>
+                            <li><strong>Choose the installer based on your laptop’s operating system.</strong></li>
+                            <img class="modal-img"src="./images/sc20.png" alt="sc" style="width: 100%; max-width: 800px;" > <br>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
